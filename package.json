@@ -1,6 +1,6 @@
 {
   "name": "plugin-explorer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This plugin allows developer to find all availble plugins for neu cli.",
   "main": "index.js",
   "scripts": {
