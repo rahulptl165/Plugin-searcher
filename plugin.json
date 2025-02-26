@@ -1,0 +1,18 @@
+{
+    "plugins":[
+        {
+            "name":"Appify",
+            "description":"Convert any SPA to a lightweight desktop app - Appify plugin for neu-cli",
+            "version":"3.1.1",
+            "repository":"https://github.com/neutralinojs/neutralinojs-cli-appify",
+            "install":"neu plugins --add @neutralinojs/appify"
+        },
+        {
+            "name":"Templates Plugin",
+            "description":"Adds functionality to manage and reuse locally saved templates in Neutralinojs CLI, eliminating the need to repeatedly download or clone remote templates.",
+            "version":"1.0.2",
+            "repository":"https://github.com/rahulptl165/neutralinojs-templates",
+            "install":"neu plugins --add neutralinojs-templates"
+        }
+    ]
+}
