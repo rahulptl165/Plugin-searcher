@@ -6,7 +6,7 @@ module.exports = {
     register: (command, modules) => {
       command.option('-p --plugin <pluginName>')
        .action(async (action, options) => {
-         const response = await fetch('https://raw.githubusercontent.com/rahulptl165/Plugin-Finder/refs/heads/main/plugin.json')
+         const response = await fetch('https://raw.githubusercontent.com/rahulptl165/Plugin-searcher/refs/heads/main/plugin.json')
          const data = await response.json();
          const { plugin: pluginName } = options;
          switch(action){

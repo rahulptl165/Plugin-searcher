@@ -1,5 +1,5 @@
 {
-  "name": "plugin-searcher",
+  "name": "plugin-explorer",
   "version": "1.0.0",
   "description": "This plugin allows developer to find all availble plugins for neu cli.",
   "main": "index.js",
